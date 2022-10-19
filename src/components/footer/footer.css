@@ -1,0 +1,35 @@
+.footer {
+  width: 100%;
+}
+
+.footer div {
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer div p {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #5c5d61;
+}
+
+@media (max-width: 1100px) {
+  .footer {
+    margin-top: -25px;
+  }
+  footer div {
+    width: 60%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+}
