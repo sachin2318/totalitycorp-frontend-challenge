@@ -33,6 +33,11 @@
   text-decoration: none;
   color: #171a20;
   font-weight: 600;
+  padding: 5px 10px;
+}
+.header__links > a:hover {
+  background-color: #AABBCC;
+  border-radius: 5px;
 }
 .header__menu > a {
   font-size: 1.6rem;
